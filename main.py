@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 def convert_single_file(heic_path: str, jpg_path: str, output_quality: int, resize: Optional[Tuple[int, int]] = None) -> Tuple[str, bool, float]:
     """
-    Convert a single HEIC file to JPG format with optional resizing.
+    Convert a list of HEIC file to JPG format with optional resizing.
     
     #### Args:
         - heic_path (str): Path to the HEIC file.
